@@ -35,6 +35,8 @@ One-to-Many Relationship: each record in one table can be related to one or more
 ![image](https://github.com/elsayedzahran/SQL-DataBase-Fundamentals/assets/68614758/1847f036-ff09-470d-9f95-439dd5e3f954)
 
 Many-to-Many Relationship: each record in one table can be related to multiple records in another table, and vice versa. To represent a many-to-many relationship in a relational database, a junction table (also called a linking or associative table) is used ex: Student and Course.
+![image](https://github.com/elsayedzahran/SQL-DataBase-Fundamentals/assets/68614758/5237d8c3-9258-487b-93b5-df38af5af132)
+![image](https://github.com/elsayedzahran/SQL-DataBase-Fundamentals/assets/68614758/485ce88b-f3f3-4665-af98-dd750b02d02c)
 
 
 
