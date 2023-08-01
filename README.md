@@ -29,6 +29,6 @@ it requires additional disk space and resources. Also, when data is inserted, up
 Relationships define how different tables in the database are related to each other. These relationships are established through foreign keys.
 foreign key is a column or a set of columns in a table that establishes a relationship with the primary key of another table.
 ### Types of Relations
-One-to-One Relationship: each record in one table is related to at most one record in another table, it's used to split a table with many columns into two separate tables ex: Employee and EmployeeProfile
+One-to-One Relationship: each record in one table is related to at most one record in another table, it's used to split a table with many columns into two separate tables ex: Employee and EmployeeProfile.
 ![image](https://github.com/elsayedzahran/SQL-DataBase-Fundamentals/assets/68614758/04b56e1b-5388-4b05-9557-b339dab5a14d)
 
