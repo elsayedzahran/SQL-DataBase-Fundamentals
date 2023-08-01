@@ -42,8 +42,15 @@ Many-to-Many Relationship: each record in one table can be related to multiple r
 It is a request or command sent to the database management system (DBMS) to retrieve, manipulate, or manage data. Queries allow users and applications to interact with the database and perform various operations on the stored data.
 #### Query Binding (Parameter Binding):
 Query binding refers to the process of associating parameters (placeholders) in a prepared SQL statement with specific values. Instead of directly inserting the values into the SQL query  (usually denoted by "?" or ":parameter_name").
+
 ![image](https://github.com/elsayedzahran/SQL-DataBase-Fundamentals/assets/68614758/f2f41795-9a99-4331-be15-a7c51c0e15cd)
+
 #### Query Unbinding (Parameter Unbinding):
 Query unbinding, on the other hand, refers to the process of removing the association between parameters and their values from a prepared statement.
 
-#### SQL Injection
+#### SQL Injection 
+The goal of an SQL injection attack is to manipulate the application's SQL query in a way that allows unauthorized access to the database or performs unintended operations on the database, such as viewing, modifying, or deleting data example: if attecker Enter ' OR '1'='1 in the input this query:
+###### SELECT * FROM users WHERE username = 'input_username' AND password = 'input_password';
+will become
+###### SELECT * FROM users WHERE username = '' OR '1'='1' AND password = 'input_password';
+ 
