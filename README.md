@@ -30,5 +30,11 @@ Relationships define how different tables in the database are related to each ot
 foreign key is a column or a set of columns in a table that establishes a relationship with the primary key of another table.
 ### Types of Relations
 One-to-One Relationship: each record in one table is related to at most one record in another table, it's used to split a table with many columns into two separate tables ex: Employee and EmployeeProfile.
-![image](https://github.com/elsayedzahran/SQL-DataBase-Fundamentals/assets/68614758/04b56e1b-5388-4b05-9557-b339dab5a14d)
+![image](https://github.com/elsayedzahran/SQL-DataBase-Fundamentals/assets/68614758/142f12fb-88e0-4d47-8db0-b67672f0a3ea)
+One-to-Many Relationship: each record in one table can be related to one or more records in another table. This is the most common type of relationship in relational databases ex: Employee and Department.
+![image](https://github.com/elsayedzahran/SQL-DataBase-Fundamentals/assets/68614758/1847f036-ff09-470d-9f95-439dd5e3f954)
+
+Many-to-Many Relationship: each record in one table can be related to multiple records in another table, and vice versa. To represent a many-to-many relationship in a relational database, a junction table (also called a linking or associative table) is used ex: Student and Course.
+
+
 
