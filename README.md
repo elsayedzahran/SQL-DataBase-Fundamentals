@@ -2,7 +2,7 @@
 This Repo Contains fundamental knowledge of RDBMS You Need to Know
 # Index
 - [Database](#DataBase)
-- [Database vs NormalFiles](#Why-to-use-DB-over-normal-files?)
+- [Database vs NormalFiles](#Why-to-use-DB-over-normal-files)
 - [Database componenets](#Database-componenets) 
   - [Schema](#Schema)
   - [Tables](#Tables)
@@ -12,7 +12,7 @@ This Repo Contains fundamental knowledge of RDBMS You Need to Know
 # DataBase
 It is a structured collection of data that is organized and stored in a way that allows for efficient 
 retrieval, manipulation, and management of information.
-## Why to use DB over normal files?
+## Why to use DB over normal files
  ### a) Data Integrity and Consistency
 Databases provide mechanisms for defining constraints and rules that ensure data integrity and consistency. Constraints like primary keys, foreign keys, and unique constraints prevent the insertion of duplicate or inconsistent data.
  ### b) Indexing 
