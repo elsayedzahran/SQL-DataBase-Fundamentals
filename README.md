@@ -34,6 +34,7 @@ This Repo Contains fundamental knowledge of RDBMS You Need to Know
 - [Indexing](##Indexing)
 - [Database Relations](##Database-Relations)
 - [Query](##Query) -->
+
 # DataBase
 It is a structured collection of data that is organized and stored in a way that allows for efficient 
 retrieval, manipulation, and management of information.
