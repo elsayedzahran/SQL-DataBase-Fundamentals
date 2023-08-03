@@ -23,7 +23,14 @@ This Repo Contains fundamental knowledge of RDBMS You Need to Know
         </li>
         <li><a href="#indexing">Indexing</a></li>
         <li><a href="#database-relations">Database Relations</a></li>
-        <li><a href="#query">Query</a></li>
+        <li>
+          <a href="#query">Query</a>
+          <ul>
+            <li><a href="#Query-Binding">Query Binding</a></li>
+            <li><a href="#Query-Unbinding">Query Unbinding</a></li>
+            <li><a href="#SQL-Injection">SQL Injection</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ol>
@@ -75,13 +82,13 @@ Many-to-Many Relationship: each record in one table can be related to multiple r
 ![image](https://github.com/elsayedzahran/SQL-DataBase-Fundamentals/assets/68614758/485ce88b-f3f3-4665-af98-dd750b02d02c)
 ## Query
 It is a request or command sent to the database management system (DBMS) to retrieve, manipulate, or manage data. Queries allow users and applications to interact with the database and perform various operations on the stored data.
-#### Query Binding (Parameter Binding):
-Query binding refers to the process of associating parameters (placeholders) in a prepared SQL statement with specific values. Instead of directly inserting the values into the SQL query  (usually denoted by "?" or ":parameter_name").
+#### Query Binding
+Query binding (Parameter Binding) refers to the process of associating parameters (placeholders) in a prepared SQL statement with specific values. Instead of directly inserting the values into the SQL query  (usually denoted by "?" or ":parameter_name").
 
 ![image](https://github.com/elsayedzahran/SQL-DataBase-Fundamentals/assets/68614758/f2f41795-9a99-4331-be15-a7c51c0e15cd)
 
-#### Query Unbinding (Parameter Unbinding):
-Query unbinding, on the other hand, refers to the process of removing the association between parameters and their values from a prepared statement.
+#### Query Unbinding
+Query unbinding (Parameter Unbinding), on the other hand, refers to the process of removing the association between parameters and their values from a prepared statement.
 
 #### SQL Injection 
 The goal of an SQL injection attack is to manipulate the application's SQL query in a way that allows unauthorized access to the database or performs unintended operations on the database, such as viewing, modifying, or deleting data example: if attecker Enter ' OR '1'='1 in the input this query:
