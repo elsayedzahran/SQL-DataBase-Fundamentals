@@ -13,16 +13,13 @@ This Repo Contains fundamental knowledge of RDBMS You Need to Know
     <li>
       <a href="#Database-componenets">Database componenets</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#Schema">Schema</a></li>
+        <li><a href="#Tables">Tables</a></li>
+        <li><a href="#Indexing">Indexing</a></li>
+        <li><a href="#Database-Relations">Database Relations</a></li>
+        <li><a href="#Query">Query</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 <!-- # Index
