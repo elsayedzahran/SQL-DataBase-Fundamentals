@@ -3,7 +3,12 @@ This Repo Contains fundamental knowledge of RDBMS You Need to Know
 # Index
 - [Database](#DataBase)
 - [DatabasevsNormalFiles](#Why-to-use-DB-over-normal-files?)
-
+- [Database](#DataBase)
+- [Database](#DataBase)
+- [Database](#DataBase)
+- 
+- [Database](#DataBase)
+- 
 # DataBase
 It is a structured collection of data that is organized and stored in a way that allows for efficient 
 retrieval, manipulation, and management of information.
