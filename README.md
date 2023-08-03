@@ -3,7 +3,7 @@ This Repo Contains fundamental knowledge of RDBMS You Need to Know
 # Index
 - [Database](#DataBase)
 - [DatabasevsNormalFiles](#Why-to-use-DB-over-normal-files?)
-- - [Database componenets](#Database-componenets)
+  - [Database componenets](#Database-componenets)
 - [Database](#DataBase)
 - [Database](#DataBase)
 - 
