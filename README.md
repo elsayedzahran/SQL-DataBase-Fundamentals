@@ -1,6 +1,31 @@
 # SQL-DataBase-Fundamentals
 This Repo Contains fundamental knowledge of RDBMS You Need to Know
-# Index
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#Database">Database</a>
+      <ul>
+        <li><a href="#Why-to-use-DB-over-normal-files">Database vs NormalFiles</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#Database-componenets">Database componenets</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+<!-- # Index
 - [Database](#DataBase)
 - [Database vs NormalFiles](#Why-to-use-DB-over-normal-files)
 - [Database componenets](#Database-componenets) 
@@ -8,7 +33,7 @@ This Repo Contains fundamental knowledge of RDBMS You Need to Know
 - [Tables](##Tables)
 - [Indexing](##Indexing)
 - [Database Relations](##Database-Relations)
-- [Query](##Query)
+- [Query](##Query) -->
 # DataBase
 It is a structured collection of data that is organized and stored in a way that allows for efficient 
 retrieval, manipulation, and management of information.
