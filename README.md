@@ -6,7 +6,7 @@ This Repo Contains fundamental knowledge of RDBMS You Need to Know
 - [Database componenets](#Database-componenets) 
 - [Schema](##Schema)
 - [Tables](##Tables)
-- [Indexing](#3Indexing)
+- [Indexing](##Indexing)
 - [Database Relations](##Database-Relations)
 - [Query](##Query)
 # DataBase
