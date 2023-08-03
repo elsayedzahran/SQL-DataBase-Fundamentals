@@ -21,13 +21,19 @@ The database schema defines the structure of the database, including the tables,
 Data in a database is organized into tables, which are composed of rows and columns. Each row represents a single record or data entry, and each column represents a specific attribute or field of the data.
 Primary Key: One or more columns in a table can be designated as the primary key. 
 #### The primary key uniquely identifies each row in the table, ensuring that no two rows have the same identifier.
+### Table Partitioning
+Table partitioning allows you to store the data of a table in multiple physical sections or partitions. Each partition has the same columns but different set of rows, we use table partitioning for large tables to improve query performance. 
+### Trigger
+Triggers are associated with a particular table and are activated when certain operations (insert, update, delete) are performed on that table. When the triggering event occurs, the trigger's code is executed, allowing you to perform additional actions, validations, or modifications before or after the actual data operation takes place, it has 2 main types Before Triggers(pre-triggers) and After Triggers(post-triggers).
+Triggers are helpful for maintaining data integrity, enforcing business rules, and automating actions that need to be performed consistently whenever certain data changes occur.
+###### When implementing triggers, it is essential to consider their performance impact and potential side effects carefully. 
 ## 3- Indexing 
 Databases often automatically create indexes for certain columns in a table. Indexes enhance the performance of data retrieval operations ex: primary key and foreign key.
 The most common type of index is the "B-tree" (Balanced Tree) index, which is used for typical indexing needs. There are also other specialized index types like bitmap indexes, hash indexes, and full-text indexes, each suited for specific use cases.
 ### Indexing Trade-offs
 it requires additional disk space and resources. Also, when data is inserted, updated, or deleted in the table, the corresponding changes must be applied to the index which make write operations more slower.
-## 4- Relationships
-Relationships define how different tables in the database are related to each other. These relationships are established through foreign keys.
+## 4- Database Relations
+Relations define how different tables in the database are related to each other. These relationships are established through foreign keys.
 #### Foreign key is a column or a set of columns in a table that establishes a relationship with the primary key of another table.
 ### Types of Relations
 One-to-One Relationship: each record in one table is related to at most one record in another table, it's used to split a table with many columns into two separate tables ex: Employee and EmployeeProfile.
@@ -53,4 +59,3 @@ The goal of an SQL injection attack is to manipulate the application's SQL query
 ###### SELECT * FROM users WHERE username = 'input_username' AND password = 'input_password';
 will become
 ###### SELECT * FROM users WHERE username = '' OR '1'='1' AND password = 'input_password';
- 
