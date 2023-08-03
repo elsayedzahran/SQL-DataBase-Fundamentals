@@ -14,7 +14,13 @@ This Repo Contains fundamental knowledge of RDBMS You Need to Know
       <a href="#Database-componenets">Database componenets</a>
       <ul>
         <li><a href="#schema">Schema</a></li>
-        <li><a href="#tables">Tables</a></li>
+        <li>
+          <a href="#tables">Tables</a>
+          <ul>
+            <li><a href="#Table-Partitioning">Table Partitioning</a></li>
+            <li><a href="#Trigger">Trigger</a></li>
+          </ul>
+        </li>
         <li><a href="#indexing">Indexing</a></li>
         <li><a href="#database-relations">Database Relations</a></li>
         <li><a href="#query">Query</a></li>
